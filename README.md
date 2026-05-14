@@ -105,39 +105,6 @@ npm run dev
 
 The server will start on `http://localhost:3000` (or your configured PORT).
 
----
-
-## Environment Variables
-
-Create a `.env` file in the root directory with the following keys:
-
-```env
-# Server
-PORT=3000
-NODE_ENV=development
-
-# Database
-MONGO_URI=mongodb://localhost:27017/bank_transaction_system
-
-# JWT
-JWT_SECRET=your_super_secret_jwt_key
-JWT_EXPIRES_IN=7d
-
-# Cookie
-COOKIE_SECRET=your_cookie_secret
-
-# Email (Gmail)
-GMAIL_USER=your_email@gmail.com
-GMAIL_APP_PASSWORD=your_gmail_app_password
-
-# System User
-SYSTEM_USER_EMAIL=system@bank.internal
-SYSTEM_USER_PASSWORD=your_secure_system_password
-```
-
-> ⚠️ Never commit `.env` to version control. It is already listed in `.gitignore`.
-
----
 
 ## API Endpoints
 
@@ -247,5 +214,5 @@ This project is licensed under the **MIT License**.
 ---
 
 <div align="center">
-  Built with 💻 by <a href="https://github.com/yaxxhsri7444">Yash Srivastava</a>
+  Built with 💻 by <a href="https://github.com/yaxxhsri7444">Saksham Srivastava</a>
 </div>
